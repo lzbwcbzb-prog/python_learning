@@ -1,0 +1,8 @@
+total = 0
+i = 1
+while i <= 100 :
+    if i % 2 == 0:
+        total +=i
+    i +=1
+else:
+    print(f"1-100偶数之和:{total}") 
